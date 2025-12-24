@@ -25,6 +25,12 @@ body {
   justify-content: center;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 .dropdown-container {
   width: 200px;
 }
