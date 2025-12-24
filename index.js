@@ -1,7 +1,7 @@
 const headerBtn = document.querySelectorAll(".header-btn");
 const dropdownList = document.querySelectorAll(".dropdown-list");
 
-export const toggleDropdown = (clickedDropdown) => {
+const toggleDropdown = (clickedDropdown) => {
   dropdownList.forEach((dropdown) => {
     if (clickedDropdown === dropdown) {
       clickedDropdown.classList.toggle("open");
